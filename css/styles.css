@@ -28,20 +28,12 @@ div p{
     font-style: italic;
 }
 
-footer{
-    margin: 0;
-    padding: 0;
-    column-count: 4;
-}
-
-li{
-    display: inline-block;
-}
-
-ul li{
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
     list-style-type: none;
+    
 }
 
-ul li a{
-    column-rule-style: dashed;
-}
+
