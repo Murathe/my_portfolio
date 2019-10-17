@@ -33,7 +33,13 @@ ul{
     justify-content: space-between;
     width: 30%;
     list-style-type: none;
-    
+    margin: 0 auto;
 }
+
+ul li a{
+    text-decoration: none;
+}
+
+
 
 
