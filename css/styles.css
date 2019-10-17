@@ -25,6 +25,10 @@ div p{
     text-align: center;
     line-height: 50px;
     font-style: italic;
+    background-color: #f3f2ed;
+    margin: 10px 40px;
+    padding: 50px 25px;
+    height: 200px;
 }
 
 div p:hover{
