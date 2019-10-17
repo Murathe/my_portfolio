@@ -1,3 +1,31 @@
 body{
     background-color: #e9edf6;
 }
+
+h1{
+    margin-left: 60%;
+    font-size: 100px;
+}
+
+
+section{
+    display: flex;
+    width: 100px;
+}
+
+img{
+    margin-top: -250px;
+    width: auto;
+    height: 100vh;
+    border-radius: 100%;
+}
+
+div p{
+    float: right;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    margin-bottom: 0;
+}
