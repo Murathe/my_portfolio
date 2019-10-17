@@ -1,5 +1,5 @@
 body{
-    background-color: #e9edf6;
+    background: url("images/imag.jpg");
 }
 
 h1{
@@ -27,6 +27,11 @@ div p{
     font-style: italic;
 }
 
+div p:hover{
+    color: chartreuse;
+    text-shadow: 5%;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -38,8 +43,15 @@ ul{
 
 ul li a{
     text-decoration: none;
+    color: palevioletred;
+    font-size: 20px;
 }
 
+li a:hover{
+    color: #240912;
+    background-color: #dee3de;
+    padding: 10px;
+}
 
 
 
