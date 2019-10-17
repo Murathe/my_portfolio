@@ -14,9 +14,8 @@ section{
 }
 
 img{
-    margin-top: -250px;
     width: auto;
-    height: 80vh;
+    height: 50%;
     border-radius: 100%;
 }
 
@@ -34,6 +33,7 @@ ul{
     width: 30%;
     list-style-type: none;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ul li a{
