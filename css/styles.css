@@ -26,6 +26,7 @@ div p{
     line-height: 50px;
     font-style: italic;
     background-color: #f3f2ed;
+    border-radius: 5%;
     margin: 10px 40px;
     padding: 50px 25px;
     height: 200px;
