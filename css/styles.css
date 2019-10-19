@@ -1,5 +1,5 @@
 body{
-    background: url("images/imag.jpg");
+    background-color: #eef1ea;
 }
 
 h1{
@@ -14,8 +14,6 @@ section{
 }
 
 img{
-    width: auto;
-    height: 50%;
     border-radius: 100%;
 }
 
@@ -48,15 +46,44 @@ ul{
 
 ul li a{
     text-decoration: none;
-    color: palevioletred;
+    color: #696969;
     font-size: 25px;
+    background-color: #FFE4E1;
+    padding: 10px;
 }
 
 li a:hover{
     color: #240912;
-    background-color: #dee3de;
+    background-color: #eaf4fc;
     padding: 10px;
 }
 
+#section{
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#image{
+    width: 40%;
+    height: auto;
+}
+#parg{
+    width: 40%;
+}
 
+aside{
+    width: 10%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5DC;
+    color: black;
+    margin-top: 5vh;
+    border-radius: 40%;
+}
 
+#one{
+    text-align: center;
+    padding-top: 50px;
+}
