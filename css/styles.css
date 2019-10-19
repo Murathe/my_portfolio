@@ -31,7 +31,7 @@ div p{
 }
 
 div p:hover{
-    color: chartreuse;
+    color: rgb(6, 10, 2);
     text-shadow: 5%;
 }
 
@@ -86,4 +86,14 @@ aside{
 #one{
     text-align: center;
     padding-top: 50px;
+}
+
+footer{
+    
+}
+
+/*about me specific styling*/
+article{
+    width: 90%;
+    height: 68vh;
 }
