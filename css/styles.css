@@ -73,7 +73,7 @@ li a:hover{
 }
 
 aside{
-    width: 10%;
+    width: 20%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -88,10 +88,6 @@ aside{
     padding-top: 80px;
 }
 
-footer{
-    
-}
-
 /*about me specific styling*/
 article{
     width: 90%;
@@ -100,7 +96,40 @@ article{
 
 /*contact form*/
 #purity{
-    column-count: 2;
+    column-count: 3;
     column-rule-color: green;
     height: 70vh;
+}
+
+#imag{
+    width: 70%;
+    height: auto;
+    margin-left: 20px;
+}
+
+form{
+    width: 50%;
+    height: 40vh;
+    margin-top: 50%;
+}
+
+input{
+    margin-top: 20px;
+    height: 3vh;
+    width: 100%;
+    padding: 5px;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 5vh;
+    width: 100%;
+}
+
+#proj img{
+    width: 50%;
+    height: 50%;
+    border-radius: 0;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
